@@ -1,31 +1,84 @@
+# 5C - TP
+<!-- block combinations that will show up by default in their workspace -->
+```template
+agent.teleportToPlayer()
+```
 
-> Open this page at [https://chocobean.github.io/test-lgk-5c-tp/](https://chocobean.github.io/test-lgk-5c-tp/)
+<!-- blocks you want available to players, based on js code -->
+```blocks
+player.say(":)")
+player.onTravelled(WALK, function () {})
+player.onChat("run", function () {})
 
-## Use as Extension
+agent.setItem(GRASS, 1, 1)
+agent.teleport(world(0, 0, 0), WEST)
+agent.teleportToPlayer()
+agent.move(FORWARD, 1)
+agent.turn(LEFT_TURN)
+agent.place(FORWARD)
+agent.destroy(FORWARD)
+agent.collectAll()
+agent.
+if(agent.inspect(AgentInspection.Block, FORWARD) == 0)
+if(agent.getPosition() == 0)
+if(agent.detect(AgentDetection.Block, FORWARD) == 0)
+agent.drop(FORWARD, 1, 1)
 
-This repository can be added as an **extension** in MakeCode.
+while (false) {}
+if(true) {} else {}
+for (let index = 0; index < 4; index++) {}
 
-* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/chocobean/test-lgk-5c-tp** and import
+if(0 == 0)
+if(randint(0, 10) == 0)
+if(variable)
 
-## Edit this project ![Build status badge](https://github.com/chocobean/test-lgk-5c-tp/workflows/MakeCode/badge.svg)
+world(0,0,0)
 
-To edit this repository in MakeCode.
+```
 
-* open [https://minecraft.makecode.com/](https://minecraft.makecode.com/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/chocobean/test-lgk-5c-tp** and click import
+# Intro
 
-## Blocks preview
+## Intro step @showdialog
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+![Lights flashing](/static/tutorials/light-blaster/flashing-lights.gif)
 
-![A rendered view of the blocks](https://github.com/chocobean/test-lgk-5c-tp/raw/master/.github/makecode/blocks.png)
+## Erstes  Programm!
 
-#### Metadata (used for search, rendering)
+Rechts findet ihr ein erstes Beispielprogramm.
 
-* for PXT/minecraft
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+Startet nun das Programm unten rechts und schaut was passiert!
+
+Antwortet auf die Frage auf eurem Arbeitsblatt!
+
+Schaut euch auch die restlichen Codeblöcke an und versucht zu verstehen was diese machen.
+
+
+  - :blank: Bullet 1
+  - :mouse pointer: Bullet 2
+
+``||on start|``
+
+``||agent teleport to player||``
+
+![Agent building a tower](/static/tutorials/agent-tower.png)
+
+## Den Agent bewegen
+
+Nun ist es an der Zeit euer erstes Programm zu erstellen.
+
+Die Aufgabe besteht darin euren Agent von einer Seite eurer 
+Arbeitsfläche zur anderen Seite zu bewegen und zwar von links unten nach links oben.
+
+Falls du Hilfe benötigst kannst du auf die Glühbirne unten klicken.
+
+Melde dich bei deinem Lehrer falls du die Aufgabe abgeschlossen hast!
+
+## Introduction 
+
+Have the agent build a tower! Make a command to tell it how many levels to build.
+
+gdfgdfgdfgdfgadg
+gdfgdfgdfgdfgadggdfgdfgd
+
+
+
