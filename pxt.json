@@ -8,7 +8,7 @@
     },
     "files": [
         "main.blocks",
-        "test.md",
+        "README.md",
         "tutorial-info-cache.json",
         "main.ts"
     ],
