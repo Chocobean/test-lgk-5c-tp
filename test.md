@@ -44,6 +44,8 @@ world(0,0,0)
 
 ## Erstes  Programm!
 
+Hallo test
+
 Rechts findet ihr ein erstes Beispielprogramm.
 
 Startet nun das Programm unten rechts und schaut was passiert!
