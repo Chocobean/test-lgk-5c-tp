@@ -62,7 +62,7 @@ Schaut euch auch die restlichen Codeblöcke an und versucht zu verstehen was die
 
 ``||agent teleport to player||``
 
-![Agent building a tower](/static/giphy.gif)
+![Agent building a tower](giphy.gif)
 
 ## Den Agent bewegen
 
