@@ -3,8 +3,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "builder": "*",
-        "LGK-5C-TP": "github:chocobean/lgk-5c-tp#main"
+        "builder": "*"
     },
     "files": [
         "main.blocks",
