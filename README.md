@@ -40,7 +40,7 @@ world(0,0,0)
 
 ## Intro step @showdialog
 
-![Lights flashing](/static/tutorials/light-blaster/flashing-lights.gif)
+![Lights flashing](/giphy.gif)
 
 ## Erstes  Programm!
 
