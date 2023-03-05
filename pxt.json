@@ -10,7 +10,7 @@
         "main.blocks",
         "README.md",
         "tutorial-info-cache.json",
-        "tutorials/activity1.md"
+        "tutorials/activity1.md",
         "main.ts"
     ],
     "testFiles": [
