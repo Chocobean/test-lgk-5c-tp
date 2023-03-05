@@ -7,7 +7,7 @@
         "builder": "*"
     },
     "files": [
-        "blocks.ts",
+        "main.blocks",
         "README.md",
         "tutorial-info-cache.json"
     ],
