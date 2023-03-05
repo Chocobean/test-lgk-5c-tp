@@ -40,7 +40,7 @@ world(0,0,0)
 
 ## Intro step @showdialog
 
-![Lights flashing](/giphy.gif)
+![Lights flashing](/static/giphy.gif)
 
 ## Erstes  Programm!
 
