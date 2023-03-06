@@ -1,4 +1,13 @@
+
+### @codeStart players set @s makecode 0
+### @codeStop players set @s makecode 1
+
+### @hideIteration true 
+### @explicitHints 1
+
 # 5C - TP
+
+
 <!-- block combinations that will show up by default in their workspace -->
 ```template
 agent.teleportToPlayer()
@@ -38,13 +47,7 @@ world(0,0,0)
 
 # Intro
 
-## Intro step @showdialog
-
-![Lights flashing](/static/giphy.gif)
-
-## Erstes  Programm! @unplugged
-
-Hallo test
+## Erstes  Programm!
 
 Rechts findet ihr ein erstes Beispielprogramm.
 
@@ -55,32 +58,31 @@ Antwortet auf die Frage auf eurem Arbeitsblatt!
 Schaut euch auch die restlichen Codeblöcke an und versucht zu verstehen was diese machen.
 
 
-  - :blank: Bullet 1
-  - :mouse pointer: Bullet 2
-
-``||on start|``
-
-``||agent teleport to player||``
-
-![Agent building a tower](/static/giphy.gif)
-
 ## Den Agent bewegen
+
 
 Nun ist es an der Zeit euer erstes Programm zu erstellen.
 
-Die Aufgabe besteht darin euren Agent von einer Seite eurer 
+Die Aufgabe besteht darin euren ``||agengt:Agent||`` von einer Seite eurer 
 Arbeitsfläche zur anderen Seite zu bewegen und zwar von links unten nach links oben.
 
-Falls du Hilfe benötigst kannst du auf die Glühbirne unten klicken.
+Der Agent soll dabei die Arbeitsfläche nicht verlassen!
+
+Wenn du Hilfe benötigst, kannst du die Glührbirne unten anklicken.
 
 Melde dich bei deinem Lehrer falls du die Aufgabe abgeschlossen hast!
 
-## Introduction 
+### ~ tutorialhint 
 
-Have the agent build a tower! Make a command to tell it how many levels to build.
+Ihr braucht die folgende Blöcke um die Aufgabe zu lösen.
 
-gdfgdfgdfgdfgadg
-gdfgdfgdfgdfgadggdfgdfgd
+```blocks
+agent.teleport(world(0, 0, 0), WEST)
+agent.move(FORWARD, 0)
 
+```
+## Den Agent im Kreis laufen lassen
+
+## Erste Blöcke mit dem Agent platzieren
 
 
