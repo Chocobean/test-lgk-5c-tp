@@ -58,7 +58,7 @@ Schaut euch auch die restlichen Codeblöcke an und versucht zu verstehen was die
 
 Nun ist es an der Zeit euer erstes Programm zu erstellen.
 
-Die Aufgabe besteht darin euren ``||agent:Agent||`` von einer Seite eurer 
+Die Aufgabe besteht darin, euren ``||agent:Agent||`` von einer Seite eurer 
 Arbeitsfläche zur anderen Seite zu bewegen und zwar von links unten nach links oben.
 
 Der ``||agent:Agent||``  soll dabei die ``||loops:Arbeitsfläche||``  nicht verlassen!
@@ -110,6 +110,15 @@ Meldet euch bei eurem ``||player:Lehrer||`` falls ihr die Aufgabe abgeschlossen 
 
 Wenn ihr Hilfe benötigt, könnt ihr die Glührbirne unten anklicken.
 
+### ~ tutorialhint 
+
+Ihr braucht unter anderem den folgenden Block um die Aufgabe zu lösen.
+
+```blocks
+for (let index = 0; index < ; index++) {}
+```
+Ihr müsst nun noch herausfinden, wieviel mal die Aktion wiederholt werden muss.
+
 ## Erste Blöcke mit dem Agent platzieren
 
 Nachdem euer Code nun optimiert ist, soll euer ``||agent:Agent||`` nun in jeder Ecke einen Block setzen.
@@ -146,15 +155,22 @@ Meldet euch bei eurem ``||player:Lehrer||`` falls ihr die Aufgabe abgeschlossen 
 
 Wenn ihr Hilfe benötigt, könnt ihr die Glührbirne unten anklicken.
 
+### ~ tutorialhint 
+Überlegt euch wie ihr eine Seite komplett füllen könnt. Dannach müsst ihr nur noch die Aktion 
+solange wiederholen bis eure Arbeitsfläche komplett gefüllt ist.
+
 ## Schachbrett bauen
 
 Als letzte Aufgabe soll euer ``||agent:Agent||`` nun ein Schachbrett bauen.
 
 Wie ihr sicher wisst besteht ein Schachbrett aus 2 Farben (Weiß und Schwarz), sowie aus 8 x 8 Feldern. Ihr
-könnt die Farben für euer Schachbrett frei wählen umso euren Schachbrett eine persönliche Note zu verleihen.
+könnt die Farben für euer Schachbrett frei wählen, umso eurem Schachbrett eine persönliche Note zu verleihen.
 
 Achtet darauf dass der ``||agent:Agent||`` die ``||loops:Arbeitsfläche||`` nicht verlässt.
 
 Meldet euch bei eurem ``||player:Lehrer||`` falls ihr die Aufgabe abgeschlossen habt!
 
 Wenn ihr Hilfe benötigt, könnt ihr die Glührbirne unten anklicken.
+
+### ~ tutorialhint 
+Überlegt euch wie ihr zwischen Blöcken wechseln könnt. Dannach ist die Aufgabe der vorherigen sehr ähnlich!
